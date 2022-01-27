@@ -29,7 +29,7 @@ $retentionaction = "Keep" #Keep of Delete if retentionperiod has been expired
 $expirationDateOption = "ModificationAgeInDays" #Data Modified attribute of File
 #Calculate Retention in Days since policy required years expressed in days
 [int]$DaysPerYear = "365"
-[int]$Years = "7"
+[int]$Years = "7" #amount of years retention
 $PolicyDays  = $DaysPerYear*$Years
 
 #Create Adaptive Scope
